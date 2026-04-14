@@ -1,0 +1,9 @@
+# Ignore raw data and target lists so we don't accidentally upload massive files
+raw_data.json
+targets.csv
+targets_v2.csv
+
+# Standard Mac and Python hidden files
+.DS_Store
+__pycache__/
+*.pyc
