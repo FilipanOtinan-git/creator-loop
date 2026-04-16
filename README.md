@@ -71,7 +71,7 @@ Before running CreatorLoop, ensure you have the following installed on your syst
 
 * **🦖 Legacy / Fallback APIs:**
 * * **[The Caveman API](https://api.caveman.io/):** If you are adapting the older scraper workflow, or if the `ytsearch` CLI fails, you can route your `scout.py` requests through this legacy endpoint. (Note: Requires active API key injected into the request headers).
-
+`` mermaid
 graph TD
     %% Define Nodes
     A[Start: User] -->|Defines Query| B(scout.py)
@@ -96,3 +96,4 @@ graph TD
     style D fill:#f96,stroke:#333,stroke-width:1px;
     style F fill:#f96,stroke:#333,stroke-width:1px;
     style H fill:#ff9,stroke:#333,stroke-width:2px;
+```
