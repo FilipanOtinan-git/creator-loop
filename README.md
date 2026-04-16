@@ -56,7 +56,7 @@ CreatorLoop operates on a simple 3-step pipeline:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/creator-loop.git](https://github.com/YOUR_USERNAME/creator-loop.git)
+   git clone [https://github.com/YOUR_USERNAME/creator-loop.git](https://github.com/FilipanOtinan/creator-loop.git)
    cd creator-loop
 
 ### 🛠️ Prerequisites & APIs
@@ -71,6 +71,8 @@ Before running CreatorLoop, ensure you have the following installed on your syst
 
 * **🦖 Legacy / Fallback APIs:**
 * * **[The Caveman API](https://api.caveman.io/):** If you are adapting the older scraper workflow, or if the `ytsearch` CLI fails, you can route your `scout.py` requests through this legacy endpoint. (Note: Requires active API key injected into the request headers).
+
+### Flowchart
 
 ``` mermaid
 graph TD
