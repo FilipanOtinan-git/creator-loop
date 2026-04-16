@@ -70,7 +70,7 @@ Before running CreatorLoop, ensure you have the following installed on your syst
 * **[gogcli](https://github.com/fatih/gog):** The command-line tool used to pipe the final CSV data directly into your Google Sheets.
 
 * **🦖 Legacy / Fallback APIs:**
-* * **[The Caveman API](https://api.caveman.io/):** If you are adapting the older scraper workflow, or if the `ytsearch` CLI fails, you can route your `scout.py` requests through this legacy endpoint. (Note: Requires active API key injected into the request headers).
+* * **[The Caveman API]([https://api.caveman.io/](https://github.com/JuliusBrussee/caveman.git)):** If you are adapting the older scraper workflow, or if the `ytsearch` CLI fails, you can route your `scout.py` requests through this legacy endpoint. (Note: Requires active API key injected into the request headers).
 
 ### Flowchart
 
