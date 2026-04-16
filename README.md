@@ -65,7 +65,7 @@ Before running CreatorLoop, ensure you have the following installed on your syst
 
 **Core Languages:**
 * **[Python 3.8+](https://www.python.org/downloads/)**
-* **CLI Tools:**
+* **CLI Tools:(https://geminicli.com/) **
 * **[ytsearch](https://github.com/pndurette/ytsearch):** The primary headless scraper used in `scout.py` to pull YouTube JSON data.
 * **[gogcli](https://github.com/fatih/gog):** The command-line tool used to pipe the final CSV data directly into your Google Sheets.
 
